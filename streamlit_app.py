@@ -18,4 +18,4 @@ df=df.set_index("Fruit")
 
 fs=streamlit.multiselect("Pick some fruit:", list(df.index),['Avacoda','Strawberries'])
 fts=df.loc[fs]
-streamlit.dataframe(fts)
+#streamlit.dataframe(fts)
